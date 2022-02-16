@@ -6,7 +6,8 @@
 html, body{
     margin: 0;
     height: 100vh;
-    text-align: center;
+    text-align: top;
+    background-color: yellow;
 }
 .header{
     background-image: url(./img/hero.jpeg);
@@ -21,7 +22,7 @@ html, body{
 .heading {
     color: #ffffff;
     display: block;
-    font-family: 'Caveat', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 6em;
     font-weight: normal;
     text-shadow: 0 0 10px #000;
