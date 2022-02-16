@@ -33,9 +33,9 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #bd1c1c;
      font-size: 14px;
-     font-family:Times New Rom...;
+     font-family:Times New 'Times New Roman', Times, serif;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -366,7 +366,7 @@ button {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    color: #000;!important;
+    color: #000 !important;
     width: 95%;
     height: 30px;
     font-size: 20px;
@@ -699,7 +699,7 @@ input.email-bt::placeholder {
     position: absolute;
     left: 50px;
     top: 40%;
-    background-color: #f8ca12;}
+    background-color: #f8ca12;
 }
 
 #main_slider .carousel-control-prev, #main_slider .carousel-control-next {
