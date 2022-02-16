@@ -1,6 +1,6 @@
 *{
     font-family: 'Quicksand', sans-serif;
-    font-size: 45px;
+    font-size: 25px;
     color: #2c21cb;
 }
 html, body{
@@ -11,7 +11,7 @@ html, body{
 .header{
     background-image: url(./img/hero.jpeg);
     background-repeat: no-repeat;
-    background-position: 50% 60%;
+    background-position: 80% 60%;
     background-attachment: scroll;
     background-size: cover;
     height: 40vh;
@@ -36,7 +36,7 @@ html, body{
     background: rgba(20,20,20,.5);
     border-radius: 1em;
     bottom: 1em;
-    color: white;
+    color: rgb(221, 236, 12);
     font-weight: bold;
     padding: 1em;
     position: fixed;
@@ -84,6 +84,6 @@ html, body{
 
 @media only screen and (max-width: 600px) {
     .heading {
-        font-size: 4em;
+        font-size: 2em;
     }
   }
