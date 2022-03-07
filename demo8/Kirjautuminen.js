@@ -9,5 +9,5 @@ function onkoKirjautunut() {
 
 function kirjaudu() {
     localStorage.setItem("nimi", document.getElementById("nimi").value);
-    localStorage.setItem("kirjautunut", "kylla");
+    localStorage.setItem("kirjautunut", document.getElementById("kylla").value);
 }
