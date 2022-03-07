@@ -6,3 +6,7 @@ function onkoKirjautunut(){
         document.getElementById('tervetulo_teksti').textContent += ' Jere!';
     }
 }
+
+function kirjaudu(){
+    localStorage.setItem("nimi", "Jere");
+}
