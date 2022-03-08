@@ -11,16 +11,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       </head>
 
-      <body>
-         <p id="tervetulo_teksti">Tervetuloa</p>
-         <form id="kirjautumis_lomake">
-             <input id="nimi" type="text" placeholder="Syötä nimesi" value="" />
-             <input id="kirjaudu_nappi" type="submit" value="Kirjaudu sisään" onClick="kirjaudu()" />
-             <input id="uloskirjautumis_nappi" type="submit" value="kirjaudu_ulos" onClick="kirjauduUlos()" />
-         
-         
-         </form>   
-         <button style="display: none;" id="kirjauduUlos"onClick="kirjauduUlos()">kirjauduUlos</button>
+
      
       <!-- mobile metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -77,20 +68,23 @@
                            </button>
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
+                                 </li>
+                                 </li>
                                  
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"> Home  </a>
-                                 </li>
-                                 <form id="kirjautumis_lomake">
-                                    <input id="nimi" type="text" placeholder="Syötä nimesi" value="" />
-                                    <input id="kirjaudu_nappi" type="submit" value="Kirjaudu sisään" onClick="kirjaudu()" />
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contact">About</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                 </li>
+                                 </li> 
+                                 <body>
+
+                                    <div>
+                                       <p id="tervetulo_teksti" style="display: none;">Tervetuloa</p>
+                                       <form id="kirjautumis_lomake">
+                                           <input id="nimi" type="text" placeholder="Syötä nimesi" value="" />
+                                           <input id="kirjaudu_nappi" type="submit" value="Kirjaudu sisään" onClick="kirjaudu()" />
+                                       
+                                       
+                                       </form>
+                                       <button style="display: none;" id="kirjauduUlos"onClick="kirjauduUlos()">Kirjaudu ulos</button>
+                                    </div>
+                                
                               </ul>
                            </div>
                         </nav>
